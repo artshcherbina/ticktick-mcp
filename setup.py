@@ -13,6 +13,12 @@ setup(
         "python-dotenv>=1.0.0,<2.0.0",
         "requests>=2.30.0,<3.0.0",
     ],
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0,<8.0.0",
+            "pytest-asyncio>=0.21.0,<1.0.0",
+        ]
+    },
     python_requires=">=3.10",
     entry_points={
         "console_scripts": [
